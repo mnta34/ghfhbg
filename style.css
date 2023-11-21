@@ -1,0 +1,289 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.con{
+    width: 100%;
+    height: 100%;
+}
+.first{
+    
+    float: left;
+    width: 25%;
+    height: 25%;
+    background-color: brown;
+}
+.second{
+    float: right;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(42, 50, 165);
+}
+.third{
+    float: left;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(199, 196, 44);
+}
+.fourth{
+    float: right;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(205, 245, 30);
+}
+.g{
+    font-size: 25px;
+    
+    padding-top: 0%;
+}
+.h{
+    font-size: 25px;
+    
+    padding-top: 0%;
+}
+.first li{
+    background-color: rgb(250, 90, 90);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: "\2705";
+
+}
+
+.second li{
+    background-color: rgb(106, 90, 250);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: "\2705";
+
+}
+.third li{
+    background-color: rgb(90, 250, 90);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: "\2705";
+}
+
+.fourth li{
+    background-color: rgb(243, 255, 131);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: "\2705";
+}
+
+.first li:hover{
+    background-color: rgb(255, 171, 171);
+    color: aliceblue;
+     list-style-type: "\274C";
+     width: 60%;
+     height: 50px;
+}
+.second li:hover{
+    background-color: rgb(171, 214, 255);
+    color: aliceblue;
+     list-style-type: "\274C";
+     width: 60%;
+     height: 50px;
+}
+.third li:hover{
+    background-color: rgb(60, 202, 70);
+    color: aliceblue;
+     list-style-type: "\274C";
+     width: 60%;
+     height: 50px;
+}
+.fourth li:hover{
+    background-color: rgb(172, 216, 89);
+    color: aliceblue;
+     list-style-type: "\274C";
+     width: 60%;
+     height: 50px;
+}
+.first{     background: linear-gradient( to left, green, rgb(0, 0, 255));  }
+.second{     background: linear-gradient( to left, rgb(255, 0, 242), rgb(255, 30, 0));  }
+.third{     background: linear-gradient( to left, rgb(0, 247, 255), green);  }
+.fourth{     background: linear-gradient( to left, rgb(255, 30, 0), rgb(0, 247, 255));  }
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+.nav a{
+    float:left;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    color: black;
+    background-color: rgb(180, 180, 180);
+
+}
+.nav{
+    
+    position: sticky;
+    top: 0;
+    
+    
+}
+.fifth{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: rgb(127, 214, 255);
+}
+.btn3{
+    border-radius: 50%;
+    
+}
+.btn1{
+    border-radius: 10%;
+}
+.btn2{
+    box-shadow: 0 5px 18px black;
+}
+.animation{
+    animation-name: color;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes color{
+    0%{color: rgb(255, 0, 0);}
+    
+    100%{ color: rgb(255, 205, 208);}
+}
+.anmt1{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 225, 255);
+    animation-name: font-size;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    padding-left: 1200px;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    
+}
+@keyframes font-size{
+    from{
+       font-size: 30px;
+    }
+    to{ font-size: 50px;
+    }
+}
+form{
+    height: 100%;
+    width: 20%;
+    float: right;
+    display: flex;
+}
+input{
+    padding: 0px 20px;
+    border: 1px;
+    font-size: 20px;
+    float:right;
+}
+.search{
+    box-shadow: 0 5px 18px black;
+    width: 100%;
+    font-weight: bold;
+    font-style: oblique;
+    float:right;
+}
+.button{
+    height: 50;
+    width: 20%;
+    background-color: rgb(3, 124, 124);
+    color: aliceblue;
+    box-shadow: 0 0px 18px black;
+}
+.button:hover{
+    background-color: rgb(1, 43, 43);
+    cursor: pointer;
+   
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
